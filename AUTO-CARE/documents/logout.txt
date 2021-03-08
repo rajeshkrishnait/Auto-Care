@@ -1,0 +1,15 @@
+//Log out Button in Profile  
+	
+JButton b_logout;
+
+	b_logout = new JButton();
+        b_logout.setText("LOG OUT");
+        b_logout.setBounds(750,100,180,40);
+        p8.add(b_logout);
+        b_logout.setBackground(Color.WHITE);
+        b_logout.addActionListener(new ActionListener(){
+            public void actionPerformed(ActionEvent e){
+                //new Login();
+            }
+        });
+

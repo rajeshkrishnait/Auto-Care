@@ -1,0 +1,129 @@
+ALGORITHM:
+ADMIN PROFILE:
+
+IMMEDIATE ASSISTANCE TAB:
+
+1.Start.
+2.Assist table is Displayed.
+3.If "REFRESH" button is selected, 
+	The Table is Refreshed.
+4.Admin Acknowledges the user .
+5.If "Accept" button is selected,
+	5.1.assist is Aproved.
+	5.2.time to reach the location is updated.
+6.If "Decline" button is selected,
+	assist is Declined.
+
+7.Stop.
+
+VIEW BOOKING TAB:
+
+1.Start.
+2.Appointments table is Displayed.
+3.If "REFRESH" button is selected, 
+	The Table is Refreshed.
+4.Admin Acknowledges the user. 
+5.If "Accept" button is selected,
+	5.1.Appointment is Confirmed.
+	5.2.Status of that Appointment is updated.
+6.If "Decline" button is selected,
+	Appointment is Declined.
+7.Stop.
+
+PARTS REQUIERED TAB:
+
+1.Start.
+2.Ecommerce table is Displayed.
+3.If "REFRESH" button is selected, 
+	The Table is Refreshed.
+4.Admin updates the status of the order placed.
+5.If admin needs to update status,
+	OrderID is taken as input and status is updated when "Update Staus" button is selected.
+6.Stop.
+
+INVOICE TAB:
+
+1.Start.
+2.Details are taken as input.
+3.If "Generate Invoice" button is selected,
+	3.1.The status is updated as "Delivered" in Appoinments table.
+	3.2.Invoice is to be generated for the entered AppoinmentID.
+4.If "Cancel" button is selected,
+	The details entered will be erased.
+
+5.Stop.
+
+VIEW ALL INVOICE TAB:
+
+1.Start.
+2.All generated invoice by the respective admin will be displayed.
+3.If "REFRESH" button is selected, 
+	The Table is Refreshed.
+4.Stop.
+
+MANAGE CUSTOMER DETAILS TAB:
+
+1.Start.
+2.Users table is displayed.
+3.If "REFRESH" button is selected, 
+	The Table is Refreshed.
+4.If "Block User" button is selected,
+	Status of the particular user is set to "Blocked".
+5.Stop.
+
+VIEW DELIVERY DETAILS TAB:
+
+1.Start.
+2.If status in the appointments table is "Delivered",
+	that is displayed.
+3.If "REFRESH" button is selected, 
+	The Table is Refreshed.
+4.Stop.
+
+PROFILE TAB:
+
+1.Start.
+2.The details of the admin logged in is displayed.
+3.If "Log out" button is selected,
+	admin is logged out.
+4.If "Refresh All" button is selected,
+	the entire admin profile is refreshed.
+5.If "Edit Profile" button is selected,
+	the details are enabled to editable mode.
+6.If "Submit" button is selected,
+	the edited changes are saved.
+7.if "Change Password" button is selected,
+	the password is changed only after the verification of current password and when the new password is valid.
+8.Stop.
+
+WORKERS TAB:
+
+1.Start.
+2.Workers table is Displayed.
+3.If "REFRESH" button is selected, 
+	The Table is Refreshed.
+4.If the admin needs to change the status,
+	WorkerID is taken as input and status is updated when "Change Status" is selected.
+5.If "Add Worker" buuton is selcted,
+	the details of the worker are taken as input and stored.
+6.Stop.
+
+STOCK TAB:
+
+1.Start.
+2.Items table is Displayed.
+3.If "REFRESH" button is selected, 
+	The Table is Refreshed.
+4.If the admin needs to update the stock,
+	ProductID is taken as input and stock is updated when "Update Stock" is selected.
+5.If "Add Items" button is selected,
+	the details of the item are taken as input and stored.
+6.Stop.
+
+ 
+	
+
+
+
+
+	
